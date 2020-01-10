@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/accueil"
+            android:title="@string/menu_home" />
+
+    <item android:title="Mes Cours">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/vue_par_semaine"
+                android:title="Vue Semaine" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/vue_par_jour"
+                android:title="Vue Journée" />
+        </menu>
+    </item>
+    <item android:title="Contacter Administration">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/contact_prof"
+                android:title="Contacter Professeurs" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/contact_delegue"
+                android:title="Contacter Délégués" />
+        </menu>
+    </item>
+    <item android:title="Planification">
+        <menu>
+            <item
+                android:id="@+id/alarme"
+                android:icon="@drawable/alarm"
+                android:title="Alarmes" />
+            <item
+                android:id="@+id/penses_betes"
+                android:icon="@drawable/penses_betes"
+                android:title="Penses-Bêtes" />
+        </menu>
+    </item>
+    <item android:title="About Author">
+        <menu>
+            <item
+                android:id="@+id/about_author"
+                android:icon="@drawable/auteur"
+                android:title="A Propos de l'auteur" />
+
+        </menu>
+    </item>
+
+</menu>

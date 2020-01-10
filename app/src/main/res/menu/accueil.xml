@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/restart_app"
+        android:orderInCategory="100"
+        android:title="Restart App" />
+    <item
+        android:id="@+id/new_group"
+        android:orderInCategory="101"
+        android:title="Nouveau Groupe" />
+    <item
+        android:id="@+id/new_broadcast"
+        android:orderInCategory="102"
+        android:title="Nouvelle Diffusion" />
+    <item
+        android:id="@+id/parametres"
+        android:orderInCategory="103"
+        android:title="Paramètres" />
+    <item
+        android:id="@+id/quitter"
+        android:orderInCategory="104"
+        android:title="Quitter" />
+</menu>
